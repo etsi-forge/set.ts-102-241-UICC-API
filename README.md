@@ -1,0 +1,3 @@
+# TS 102 241 UICC API
+
+TS 102 241 UICC API for Java Card
