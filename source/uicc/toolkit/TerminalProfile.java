@@ -535,6 +535,10 @@ public final class TerminalProfile {
 		 * Support of GET INPUT Variable Time out = (short)272;
 		 */
 		public static final short IDX_GET_INPUT_VARIABLE_TIMEOUT = (short)272;
+		/**
+		 * Support for Refresh with "Application Update" mode (i.e. class "af" is supported)=(short)275;
+		 */
+		 public static final short IDX_REFRESH_APPLICATION_UPDATE=(short)275;
 
 
 

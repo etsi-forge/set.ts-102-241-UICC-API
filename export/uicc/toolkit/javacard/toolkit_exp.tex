@@ -2,7 +2,7 @@ export file {		// uicc/toolkit
 	magic	00FACADE		 // in hex
 	minor_version	3
 	major_version	2
-	constant_pool_count	682
+	constant_pool_count	684
 	constant_pool {
 		Constant_Utf8_info {
 			tag	1
@@ -2893,6 +2893,15 @@ export file {		// uicc/toolkit
 		}
 		Constant_Utf8_info {
 			tag	1
+			length	30
+			bytes	IDX_REFRESH_APPLICATION_UPDATE
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	275
+		}
+		Constant_Utf8_info {
+			tag	1
 			length	5
 			bytes	check
 		}
@@ -2933,7 +2942,7 @@ export file {		// uicc/toolkit
 		}
 		Constant_Classref_info {
 			tag	7
-			name_index	620		// uicc/toolkit/TerminalProfile
+			name_index	622		// uicc/toolkit/TerminalProfile
 		}
 		Constant_Utf8_info {
 			tag	1
@@ -2952,7 +2961,7 @@ export file {		// uicc/toolkit
 		}
 		Constant_Classref_info {
 			tag	7
-			name_index	624		// uicc/toolkit/EnvelopeHandlerSystem
+			name_index	626		// uicc/toolkit/EnvelopeHandlerSystem
 		}
 		Constant_Utf8_info {
 			tag	1
@@ -3075,7 +3084,7 @@ export file {		// uicc/toolkit
 		}
 		Constant_Classref_info {
 			tag	7
-			name_index	649		// uicc/toolkit/ToolkitException
+			name_index	651		// uicc/toolkit/ToolkitException
 		}
 		Constant_Utf8_info {
 			tag	1
@@ -3084,7 +3093,7 @@ export file {		// uicc/toolkit
 		}
 		Constant_Classref_info {
 			tag	7
-			name_index	651		// java/lang/Throwable
+			name_index	653		// java/lang/Throwable
 		}
 		Constant_Utf8_info {
 			tag	1
@@ -3093,7 +3102,7 @@ export file {		// uicc/toolkit
 		}
 		Constant_Classref_info {
 			tag	7
-			name_index	653		// java/lang/Exception
+			name_index	655		// java/lang/Exception
 		}
 		Constant_Utf8_info {
 			tag	1
@@ -3102,7 +3111,7 @@ export file {		// uicc/toolkit
 		}
 		Constant_Classref_info {
 			tag	7
-			name_index	655		// java/lang/RuntimeException
+			name_index	657		// java/lang/RuntimeException
 		}
 		Constant_Utf8_info {
 			tag	1
@@ -3111,7 +3120,7 @@ export file {		// uicc/toolkit
 		}
 		Constant_Classref_info {
 			tag	7
-			name_index	657		// javacard/framework/CardRuntimeException
+			name_index	659		// javacard/framework/CardRuntimeException
 		}
 		Constant_Utf8_info {
 			tag	1
@@ -3125,7 +3134,7 @@ export file {		// uicc/toolkit
 		}
 		Constant_Classref_info {
 			tag	7
-			name_index	660		// uicc/toolkit/ProactiveHandlerSystem
+			name_index	662		// uicc/toolkit/ProactiveHandlerSystem
 		}
 		Constant_Utf8_info {
 			tag	1
@@ -3139,7 +3148,7 @@ export file {		// uicc/toolkit
 		}
 		Constant_Classref_info {
 			tag	7
-			name_index	663		// uicc/toolkit/EnvelopeResponseHandlerSystem
+			name_index	665		// uicc/toolkit/EnvelopeResponseHandlerSystem
 		}
 		Constant_Utf8_info {
 			tag	1
@@ -3168,7 +3177,7 @@ export file {		// uicc/toolkit
 		}
 		Constant_Classref_info {
 			tag	7
-			name_index	669		// uicc/toolkit/ToolkitRegistrySystem
+			name_index	671		// uicc/toolkit/ToolkitRegistrySystem
 		}
 		Constant_Utf8_info {
 			tag	1
@@ -3182,7 +3191,7 @@ export file {		// uicc/toolkit
 		}
 		Constant_Classref_info {
 			tag	7
-			name_index	672		// uicc/toolkit/ProactiveResponseHandlerSystem
+			name_index	674		// uicc/toolkit/ProactiveResponseHandlerSystem
 		}
 		Constant_Utf8_info {
 			tag	1
@@ -3192,8 +3201,8 @@ export file {		// uicc/toolkit
 		CONSTANT_Package_info {
 			tag	13
 			flags	1
-			name_index	674		// uicc/toolkit
-			minor_version	12
+			name_index	676		// uicc/toolkit
+			minor_version	13
 			major_version	1
 			aid_length	16
 			aid	0xA0:0x0:0x0:0x0:0x9:0x0:0x5:0xFF:0xFF:0xFF:0xFF:0x89:0x12:0x0:0x0:0x0
@@ -3206,7 +3215,7 @@ export file {		// uicc/toolkit
 		CONSTANT_Package_info {
 			tag	13
 			flags	0
-			name_index	676		// java/lang
+			name_index	678		// java/lang
 			minor_version	0
 			major_version	1
 			aid_length	7
@@ -3220,7 +3229,7 @@ export file {		// uicc/toolkit
 		CONSTANT_Package_info {
 			tag	13
 			flags	0
-			name_index	678		// javacard/framework
+			name_index	680		// javacard/framework
 			minor_version	8
 			major_version	1
 			aid_length	7
@@ -3234,18 +3243,18 @@ export file {		// uicc/toolkit
 		CONSTANT_Package_info {
 			tag	13
 			flags	0
-			name_index	680		// uicc/access
+			name_index	682		// uicc/access
 			minor_version	2
 			major_version	1
 			aid_length	16
 			aid	0xA0:0x0:0x0:0x0:0x9:0x0:0x5:0xFF:0xFF:0xFF:0xFF:0x89:0x11:0x0:0x0:0x0
 		}
 	}
-	this_package	675
+	this_package	677
 	referenced_package_count	3
-	referencedPackage[0]	677		// java/lang
-	referencedPackage[1]	679		// javacard/framework
-	referencedPackage[2]	681		// uicc/access
+	referencedPackage[0]	679		// java/lang
+	referencedPackage[1]	681		// javacard/framework
+	referencedPackage[2]	683		// uicc/access
 	export_class_count	18
 	export_classes {
 		class_info {		// uicc/toolkit/ViewHandler
@@ -7445,7 +7454,7 @@ export file {		// uicc/toolkit
 		class_info {		// uicc/toolkit/TerminalProfile
 			token	11
 			access_flags	public final
-			name_index	621		// uicc/toolkit/TerminalProfile
+			name_index	623		// uicc/toolkit/TerminalProfile
 			export_supers_count	1
 			supers {
 				constant_pool_index	25		// java/lang/Object
@@ -7453,7 +7462,7 @@ export file {		// uicc/toolkit
 			export_interfaces_count	0
 			interfaces {
 			}
-			export_fields_count	129
+			export_fields_count	130
 			fields {
 			field_info {
 				token	255
@@ -9261,32 +9270,46 @@ export file {		// uicc/toolkit
 				}
 				}
 			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	613		// IDX_REFRESH_APPLICATION_UPDATE
+				Descriptor_Index	80		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	81		// ConstantValue
+					attribute_length	2
+					constantvalue_index	614		// value = 275
+				}
+				}
+			}
 			}
 			export_methods_count	6
 			methods {
 				method_info {
 					token	0
 					access_flags	public static
-					name_index	613		// check
-					Descriptor_Index	614		// (B)Z
+					name_index	615		// check
+					Descriptor_Index	616		// (B)Z
 				}
 				method_info {
 					token	1
 					access_flags	public static
-					name_index	613		// check
-					Descriptor_Index	615		// ([BSS)Z
+					name_index	615		// check
+					Descriptor_Index	617		// ([BSS)Z
 				}
 				method_info {
 					token	2
 					access_flags	public static
-					name_index	613		// check
+					name_index	615		// check
 					Descriptor_Index	393		// (S)Z
 				}
 				method_info {
 					token	3
 					access_flags	public static
-					name_index	616		// getValue
-					Descriptor_Index	617		// (SS)S
+					name_index	618		// getValue
+					Descriptor_Index	619		// (SS)S
 				}
 				method_info {
 					token	4
@@ -9297,8 +9320,8 @@ export file {		// uicc/toolkit
 				method_info {
 					token	0
 					access_flags	public
-					name_index	618		// equals
-					Descriptor_Index	619		// (Ljava/lang/Object;)Z
+					name_index	620		// equals
+					Descriptor_Index	621		// (Ljava/lang/Object;)Z
 				}
 			}
 			CAP22_inheritable_count	1
@@ -9306,7 +9329,7 @@ export file {		// uicc/toolkit
 		class_info {		// uicc/toolkit/EnvelopeHandlerSystem
 			token	12
 			access_flags	public final
-			name_index	625		// uicc/toolkit/EnvelopeHandlerSystem
+			name_index	627		// uicc/toolkit/EnvelopeHandlerSystem
 			export_supers_count	1
 			supers {
 				constant_pool_index	25		// java/lang/Object
@@ -9322,14 +9345,14 @@ export file {		// uicc/toolkit
 				method_info {
 					token	0
 					access_flags	public static
-					name_index	622		// getTheHandler
-					Descriptor_Index	623		// ()Luicc/toolkit/EnvelopeHandler;
+					name_index	624		// getTheHandler
+					Descriptor_Index	625		// ()Luicc/toolkit/EnvelopeHandler;
 				}
 				method_info {
 					token	0
 					access_flags	public
-					name_index	618		// equals
-					Descriptor_Index	619		// (Ljava/lang/Object;)Z
+					name_index	620		// equals
+					Descriptor_Index	621		// (Ljava/lang/Object;)Z
 				}
 			}
 			CAP22_inheritable_count	1
@@ -9337,14 +9360,14 @@ export file {		// uicc/toolkit
 		class_info {		// uicc/toolkit/ToolkitException
 			token	13
 			access_flags	public
-			name_index	650		// uicc/toolkit/ToolkitException
+			name_index	652		// uicc/toolkit/ToolkitException
 			export_supers_count	5
 			supers {
 				constant_pool_index	25		// java/lang/Object
-				constant_pool_index	652		// java/lang/Throwable
-				constant_pool_index	654		// java/lang/Exception
-				constant_pool_index	656		// java/lang/RuntimeException
-				constant_pool_index	658		// javacard/framework/CardRuntimeException
+				constant_pool_index	654		// java/lang/Throwable
+				constant_pool_index	656		// java/lang/Exception
+				constant_pool_index	658		// java/lang/RuntimeException
+				constant_pool_index	660		// javacard/framework/CardRuntimeException
 			}
 			export_interfaces_count	0
 			interfaces {
@@ -9354,7 +9377,7 @@ export file {		// uicc/toolkit
 			field_info {
 				token	255
 				access_flags	public static final
-				name_index	626		// HANDLER_OVERFLOW
+				name_index	628		// HANDLER_OVERFLOW
 				Descriptor_Index	80		// S
 				attributes_count	1
 				attributes {
@@ -9368,7 +9391,7 @@ export file {		// uicc/toolkit
 			field_info {
 				token	255
 				access_flags	public static final
-				name_index	627		// HANDLER_NOT_AVAILABLE
+				name_index	629		// HANDLER_NOT_AVAILABLE
 				Descriptor_Index	80		// S
 				attributes_count	1
 				attributes {
@@ -9382,7 +9405,7 @@ export file {		// uicc/toolkit
 			field_info {
 				token	255
 				access_flags	public static final
-				name_index	628		// UNAVAILABLE_ELEMENT
+				name_index	630		// UNAVAILABLE_ELEMENT
 				Descriptor_Index	80		// S
 				attributes_count	1
 				attributes {
@@ -9396,7 +9419,7 @@ export file {		// uicc/toolkit
 			field_info {
 				token	255
 				access_flags	public static final
-				name_index	629		// MENU_ENTRY_NOT_FOUND
+				name_index	631		// MENU_ENTRY_NOT_FOUND
 				Descriptor_Index	80		// S
 				attributes_count	1
 				attributes {
@@ -9410,7 +9433,7 @@ export file {		// uicc/toolkit
 			field_info {
 				token	255
 				access_flags	public static final
-				name_index	630		// REGISTRY_ERROR
+				name_index	632		// REGISTRY_ERROR
 				Descriptor_Index	80		// S
 				attributes_count	1
 				attributes {
@@ -9424,7 +9447,7 @@ export file {		// uicc/toolkit
 			field_info {
 				token	255
 				access_flags	public static final
-				name_index	631		// EVENT_NOT_SUPPORTED
+				name_index	633		// EVENT_NOT_SUPPORTED
 				Descriptor_Index	80		// S
 				attributes_count	1
 				attributes {
@@ -9438,7 +9461,7 @@ export file {		// uicc/toolkit
 			field_info {
 				token	255
 				access_flags	public static final
-				name_index	632		// EVENT_ALREADY_REGISTERED
+				name_index	634		// EVENT_ALREADY_REGISTERED
 				Descriptor_Index	80		// S
 				attributes_count	1
 				attributes {
@@ -9452,7 +9475,7 @@ export file {		// uicc/toolkit
 			field_info {
 				token	255
 				access_flags	public static final
-				name_index	633		// OUT_OF_TLV_BOUNDARIES
+				name_index	635		// OUT_OF_TLV_BOUNDARIES
 				Descriptor_Index	80		// S
 				attributes_count	1
 				attributes {
@@ -9466,7 +9489,7 @@ export file {		// uicc/toolkit
 			field_info {
 				token	255
 				access_flags	public static final
-				name_index	634		// TERMINAL_PROFILE_NOT_AVAILABLE
+				name_index	636		// TERMINAL_PROFILE_NOT_AVAILABLE
 				Descriptor_Index	80		// S
 				attributes_count	1
 				attributes {
@@ -9480,21 +9503,21 @@ export file {		// uicc/toolkit
 			field_info {
 				token	255
 				access_flags	public static final
-				name_index	635		// ALLOWED_LENGTH_EXCEEDED
+				name_index	637		// ALLOWED_LENGTH_EXCEEDED
 				Descriptor_Index	80		// S
 				attributes_count	1
 				attributes {
 				ConstantValue_attribute {
 					attribute_name_index	81		// ConstantValue
 					attribute_length	2
-					constantvalue_index	636		// value = 10
+					constantvalue_index	638		// value = 10
 				}
 				}
 			}
 			field_info {
 				token	255
 				access_flags	public static final
-				name_index	637		// NO_TIMER_AVAILABLE
+				name_index	639		// NO_TIMER_AVAILABLE
 				Descriptor_Index	80		// S
 				attributes_count	1
 				attributes {
@@ -9508,7 +9531,7 @@ export file {		// uicc/toolkit
 			field_info {
 				token	255
 				access_flags	public static final
-				name_index	638		// INVALID_TIMER_ID
+				name_index	640		// INVALID_TIMER_ID
 				Descriptor_Index	80		// S
 				attributes_count	1
 				attributes {
@@ -9522,7 +9545,7 @@ export file {		// uicc/toolkit
 			field_info {
 				token	255
 				access_flags	public static final
-				name_index	639		// EVENT_NOT_ALLOWED
+				name_index	641		// EVENT_NOT_ALLOWED
 				Descriptor_Index	80		// S
 				attributes_count	1
 				attributes {
@@ -9536,7 +9559,7 @@ export file {		// uicc/toolkit
 			field_info {
 				token	255
 				access_flags	public static final
-				name_index	640		// BAD_INPUT_PARAMETER
+				name_index	642		// BAD_INPUT_PARAMETER
 				Descriptor_Index	80		// S
 				attributes_count	1
 				attributes {
@@ -9550,7 +9573,7 @@ export file {		// uicc/toolkit
 			field_info {
 				token	255
 				access_flags	public static final
-				name_index	641		// COMMAND_NOT_ALLOWED
+				name_index	643		// COMMAND_NOT_ALLOWED
 				Descriptor_Index	80		// S
 				attributes_count	1
 				attributes {
@@ -9564,7 +9587,7 @@ export file {		// uicc/toolkit
 			field_info {
 				token	255
 				access_flags	public static final
-				name_index	642		// NO_SERVICE_ID_AVAILABLE
+				name_index	644		// NO_SERVICE_ID_AVAILABLE
 				Descriptor_Index	80		// S
 				attributes_count	1
 				attributes {
@@ -9578,7 +9601,7 @@ export file {		// uicc/toolkit
 			field_info {
 				token	255
 				access_flags	public static final
-				name_index	643		// INVALID_SERVICE_ID
+				name_index	645		// INVALID_SERVICE_ID
 				Descriptor_Index	80		// S
 				attributes_count	1
 				attributes {
@@ -9592,7 +9615,7 @@ export file {		// uicc/toolkit
 			field_info {
 				token	255
 				access_flags	public static final
-				name_index	644		// TAR_NOT_DEFINED
+				name_index	646		// TAR_NOT_DEFINED
 				Descriptor_Index	80		// S
 				attributes_count	1
 				attributes {
@@ -9609,31 +9632,31 @@ export file {		// uicc/toolkit
 				method_info {
 					token	0
 					access_flags	public
-					name_index	645		// <init>
+					name_index	647		// <init>
 					Descriptor_Index	383		// (S)V
 				}
 				method_info {
 					token	1
 					access_flags	public static
-					name_index	646		// throwIt
+					name_index	648		// throwIt
 					Descriptor_Index	383		// (S)V
 				}
 				method_info {
 					token	0
 					access_flags	public
-					name_index	618		// equals
-					Descriptor_Index	619		// (Ljava/lang/Object;)Z
+					name_index	620		// equals
+					Descriptor_Index	621		// (Ljava/lang/Object;)Z
 				}
 				method_info {
 					token	1
 					access_flags	public
-					name_index	647		// getReason
+					name_index	649		// getReason
 					Descriptor_Index	1		// ()S
 				}
 				method_info {
 					token	2
 					access_flags	public
-					name_index	648		// setReason
+					name_index	650		// setReason
 					Descriptor_Index	383		// (S)V
 				}
 			}
@@ -9642,7 +9665,7 @@ export file {		// uicc/toolkit
 		class_info {		// uicc/toolkit/ProactiveHandlerSystem
 			token	14
 			access_flags	public final
-			name_index	661		// uicc/toolkit/ProactiveHandlerSystem
+			name_index	663		// uicc/toolkit/ProactiveHandlerSystem
 			export_supers_count	1
 			supers {
 				constant_pool_index	25		// java/lang/Object
@@ -9658,14 +9681,14 @@ export file {		// uicc/toolkit
 				method_info {
 					token	0
 					access_flags	public static
-					name_index	622		// getTheHandler
-					Descriptor_Index	659		// ()Luicc/toolkit/ProactiveHandler;
+					name_index	624		// getTheHandler
+					Descriptor_Index	661		// ()Luicc/toolkit/ProactiveHandler;
 				}
 				method_info {
 					token	0
 					access_flags	public
-					name_index	618		// equals
-					Descriptor_Index	619		// (Ljava/lang/Object;)Z
+					name_index	620		// equals
+					Descriptor_Index	621		// (Ljava/lang/Object;)Z
 				}
 			}
 			CAP22_inheritable_count	1
@@ -9673,7 +9696,7 @@ export file {		// uicc/toolkit
 		class_info {		// uicc/toolkit/EnvelopeResponseHandlerSystem
 			token	15
 			access_flags	public final
-			name_index	664		// uicc/toolkit/EnvelopeResponseHandlerSystem
+			name_index	666		// uicc/toolkit/EnvelopeResponseHandlerSystem
 			export_supers_count	1
 			supers {
 				constant_pool_index	25		// java/lang/Object
@@ -9689,14 +9712,14 @@ export file {		// uicc/toolkit
 				method_info {
 					token	0
 					access_flags	public static
-					name_index	622		// getTheHandler
-					Descriptor_Index	662		// ()Luicc/toolkit/EnvelopeResponseHandler;
+					name_index	624		// getTheHandler
+					Descriptor_Index	664		// ()Luicc/toolkit/EnvelopeResponseHandler;
 				}
 				method_info {
 					token	0
 					access_flags	public
-					name_index	618		// equals
-					Descriptor_Index	619		// (Ljava/lang/Object;)Z
+					name_index	620		// equals
+					Descriptor_Index	621		// (Ljava/lang/Object;)Z
 				}
 			}
 			CAP22_inheritable_count	1
@@ -9704,7 +9727,7 @@ export file {		// uicc/toolkit
 		class_info {		// uicc/toolkit/ToolkitRegistrySystem
 			token	16
 			access_flags	public final
-			name_index	670		// uicc/toolkit/ToolkitRegistrySystem
+			name_index	672		// uicc/toolkit/ToolkitRegistrySystem
 			export_supers_count	1
 			supers {
 				constant_pool_index	25		// java/lang/Object
@@ -9720,20 +9743,20 @@ export file {		// uicc/toolkit
 				method_info {
 					token	0
 					access_flags	public static
-					name_index	665		// getEntry
-					Descriptor_Index	666		// ()Luicc/toolkit/ToolkitRegistry;
+					name_index	667		// getEntry
+					Descriptor_Index	668		// ()Luicc/toolkit/ToolkitRegistry;
 				}
 				method_info {
 					token	1
 					access_flags	public static
-					name_index	667		// isPrioritizedProactiveHandlerAvailableEventSet
-					Descriptor_Index	668		// ()Z
+					name_index	669		// isPrioritizedProactiveHandlerAvailableEventSet
+					Descriptor_Index	670		// ()Z
 				}
 				method_info {
 					token	0
 					access_flags	public
-					name_index	618		// equals
-					Descriptor_Index	619		// (Ljava/lang/Object;)Z
+					name_index	620		// equals
+					Descriptor_Index	621		// (Ljava/lang/Object;)Z
 				}
 			}
 			CAP22_inheritable_count	1
@@ -9741,7 +9764,7 @@ export file {		// uicc/toolkit
 		class_info {		// uicc/toolkit/ProactiveResponseHandlerSystem
 			token	17
 			access_flags	public final
-			name_index	673		// uicc/toolkit/ProactiveResponseHandlerSystem
+			name_index	675		// uicc/toolkit/ProactiveResponseHandlerSystem
 			export_supers_count	1
 			supers {
 				constant_pool_index	25		// java/lang/Object
@@ -9757,14 +9780,14 @@ export file {		// uicc/toolkit
 				method_info {
 					token	0
 					access_flags	public static
-					name_index	622		// getTheHandler
-					Descriptor_Index	671		// ()Luicc/toolkit/ProactiveResponseHandler;
+					name_index	624		// getTheHandler
+					Descriptor_Index	673		// ()Luicc/toolkit/ProactiveResponseHandler;
 				}
 				method_info {
 					token	0
 					access_flags	public
-					name_index	618		// equals
-					Descriptor_Index	619		// (Ljava/lang/Object;)Z
+					name_index	620		// equals
+					Descriptor_Index	621		// (Ljava/lang/Object;)Z
 				}
 			}
 			CAP22_inheritable_count	1
